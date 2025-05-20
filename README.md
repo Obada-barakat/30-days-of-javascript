@@ -18,7 +18,7 @@ Each day/project is in its own folder and includes:
 ## ✅ Projects
 | Day | Project                | Description             | Live Demo  |
 |-----|------------------------|-------------------------|------------|
-| 01  | Drums Kit              | An interactive drums kit| [Demo](#)  |
+| 01  | Drums Kit              | An interactive drums kit| [Demo](https://obada-barakat.github.io/30-days-of-javascript/day1-JavaScript%20Dum%20Kit/)  |
 | 02  |                        |                         |            |
 | ... | ...                    | ...                     | ...        |
 
