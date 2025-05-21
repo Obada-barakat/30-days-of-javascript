@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    text-align: center;
+    font-size: 10px;
+}
+
+body {
+    background-color:  rgb(77 196 194);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    font-size: 2rem;
+    min-height: 100vh;
+    align-items: center;
+    overflow: hidden;
+}
+
+div.clock {
+    position: relative;
+    margin: 50px auto;
+    background-color: #e4dede;
+    width: 32rem;
+    height: 32rem;
+    padding: 12px;
+    border: 14px solid yellow;
+    border-radius: 50%;
+    box-shadow: 
+    inset 0px 0px 1px 3px rgb(0 0 0 / 23%), 9px 11px 1px 7px rgb(0 0 0 / 33%);
+    z-index: 1;
+}
+
+div.clock::before {
+    content: "9";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+div.clock::after {
+    content: "3";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+    font-weight: bold;
+    display: inline;
+}
+
+div.clock .clock_face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-3px);
+    z-index: 1;
+}
+
+
+div.clock .clock_face span {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-45%);
+    padding: 0;
+    margin: 0;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+div.clock .clock_face::before {
+    content: "12";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+
+div.clock .clock_face::after {
+    content: "6";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+div.clock .clock_face .hand {
+    position: absolute;
+    width: 50%;
+    height: 6px;
+    top: 50%;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    box-shadow: 1px -1px 1px rgb(0 0 0 / 71%);
+    z-index: 10;
+}
+
+div.clock .clock_face .hand::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-35%);
+    width: 10px;
+    height: 10px;
+    border-top-left-radius: 45%;
+    border-bottom-left-radius: 45%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+div.clock .clock_face .hand.hour_hand {
+    width: 40%;
+    height: 5px;
+    left: 10%;
+    background-color: rgb(77 196 194);
+    z-index: 11;
+}
+
+div.clock .clock_face .hand.hour_hand::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    width: 18px;
+    height: 18px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 50%;
+}
+
+div.clock .clock_face .hand.min_hand {
+    width: 45%;
+    height: 5px;
+    left: 5%;
+    background-color: rgb(77 196 194);
+}
+
+div.clock .clock_face .hand.second_hand {
+    width: 50%;
+    height: 4px;
+    background-color:#DA70D6;
+    /* z-index:5; */
+}
