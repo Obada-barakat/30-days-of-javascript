@@ -19,7 +19,7 @@ Each day/project is in its own folder and includes:
 | Day | Project                | Description             | Live Demo  |
 |-----|------------------------|-------------------------|------------|
 | 01  | Drums Kit              | An interactive drums kit| [Demo](https://obada-barakat.github.io/30-days-of-javascript/day1-JavaScript%20Dum%20Kit/)  |
-| 02  |                        |                         |            |
+| 02  | Clock                  | A real-time clock       | [Demo] (https://github.com/Obada-barakat/30-days-of-javascript/day2-JavaScript Clock/)            |
 | ... | ...                    | ...                     | ...        |
 
 Feel free to follow along, use the ideas, and fork the repo if you're doing a similar challenge!
