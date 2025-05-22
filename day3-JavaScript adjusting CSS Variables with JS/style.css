@@ -1,0 +1,60 @@
+:root {
+    --base: #ffc600;
+    --spacing: 2px;
+    --blur: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #193549;
+    color: #fff;
+    font-weight: 100;
+    font-size: 22px;
+    min-height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+.js {
+    color: var(--base);
+    display: block;
+    font-size: 1.8rem;
+}
+
+.controls {
+    margin-bottom: 100px;
+}
+
+.controls label {
+    display: block;
+    margin: 6px auto;
+}
+
+.polaroid {
+    width: 100%;
+    background-color: #193549;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.polaroid img {
+    max-width: 100%;
+    height: auto;   
+    border-radius: 6px;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur)); 
+}
+
+.polaroid .container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.polaroid p {
+    font-size: 24px;
+    color: var(--base);
+}
