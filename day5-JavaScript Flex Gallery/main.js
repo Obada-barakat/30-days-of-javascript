@@ -2,20 +2,17 @@
 const panels = document.querySelectorAll('.panel');
 
 function openImage() {
-    if (this.classList.contains('open')) {
-        this.classList.remove('open')
-    } else {
-        this.classList.add('open')
-    }
+        this.classList.toggle('open')
 }
 
-// function openImageOnTouch() {
-//     if (this.classList.contains('open')) {
-//         this.classList.remove('open')
-//     } else {
-//         this.classList.add('open')
-//     }
-// }
+function openImageOnTouch() {
+    e.preventDefault();
+    if (!this.classList.contains('open')) {
+        this.classList.add('open')
+    } else {
+        this.classList.remove('open')
+    }
+}
 
 function showText(e) {
     if (e.propertyName.includes('flex')) {
@@ -24,7 +21,6 @@ function showText(e) {
 }
 
 panels.forEach(panel => panel.addEventListener('click', openImage))
-panels.forEach(panel => panel.addEventListener('touchstart', openImage))
+panels.forEach(panel => panel.addEventListener('touchcancel', openImageOnTouch))
 
-panels.forEach(panel => panel.addEventListener('transitionend', showText))
 panels.forEach(panel => panel.addEventListener('transitionend', showText))
