@@ -20,7 +20,7 @@ div.panels {
 .panels .panel {
     background-position: center;
     background-size: cover;
-    background-color: #6b0f9c;
+    background-color: #2c282e;
     flex: 1;
     transition: 
         flex 0.6s cubic-bezier(0.51, 0.99, 0.41, -0.02),
