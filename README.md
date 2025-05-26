@@ -23,6 +23,6 @@ Each day/project is in its own folder and includes:
 | 03  | Update CSS Classes with JS                    | Accessing CSS root and changing the classes values dynamicaly                     | [Demo](https://Obada-barakat.github.io/30-days-of-javascript/day3-JavaScript%20adjusting%20CSS%20Variables%20with%20JS/)        |
 | 04 | Array Cardio             | An exercise with array methods | [Demo](https://Obada-barakat.github.io/30-days-of-javascript/day4-JavaScript%20Array%20Cardio/) |
 | 05 | Flex Gallery             | A responsive image gallery where clicking on an image smoothly expands it | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day5-JavaScript%20Flex%20Gallery/) |
-| 06 | Type Ahead               | “Type Ahead” search bar that allows users to search for cities in the USA! | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day6-JavaScript-ajax-type-ahead)
+| 06 | Type Ahead               | “Type Ahead” search bar that allows users to search for cities in the USA! | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day6-JavaScript-ajax-type-ahead/)
 
 Feel free to follow along, use the ideas, and fork the repo if you're doing a similar challenge!
