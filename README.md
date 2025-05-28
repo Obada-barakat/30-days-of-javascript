@@ -24,6 +24,7 @@ Each day/project is in its own folder and includes:
 | 04 | Array Cardio             | An exercise with array methods | [Demo](https://Obada-barakat.github.io/30-days-of-javascript/day4-JavaScript%20Array%20Cardio/) |
 | 05 | Flex Gallery             | A responsive image gallery where clicking on an image smoothly expands it | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day5-JavaScript%20Flex%20Gallery/) |
 | 06 | Type Ahead               | “Type Ahead” search bar that allows users to search for cities in the USA! | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day6-JavaScript-ajax-type-ahead/) |
-| 07 | Array Cardio             |  An exercise with array methods part 2 | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day7-JavaScript-Array-Cardio-2)
+| 07 | Array Cardio             |  An exercise with array methods part 2 | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day7-JavaScript-Array-Cardio-2) |
+| 08 | HTML Canvas              | Drawing app using the HTML5 <canvas> element and JavaScript | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day8-JavaScript-Canvas)
 
 Feel free to follow along, use the ideas, and fork the repo if you're doing a similar challenge!
