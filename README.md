@@ -26,6 +26,7 @@ Each day/project is in its own folder and includes:
 | 06 | Type Ahead               | “Type Ahead” search bar that allows users to search for cities in the USA! | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day6-JavaScript-ajax-type-ahead/) |
 | 07 | Array Cardio             |  An exercise with array methods part 2 | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day7-JavaScript-Array-Cardio-2) |
 | 08 | HTML Canvas              | Drawing app using the HTML5 <canvas> element and JavaScript | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day8-JavaScript-Canvas)|
-| 09 | Dev Tools                |  DevTools and the console are super important for debugging and real-world development | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day9-JavaScript-dev-tools)
+| 09 | Dev Tools                |  DevTools and the console are super important for debugging and real-world development | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day9-JavaScript-dev-tools)|
+| 10 | Select multiple checkboxes| Hold Shift and click to select a range of checkboxes | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day10-JavaScript-Hold-shift-and-select) 
 
 Feel free to follow along, use the ideas, and fork the repo if you're doing a similar challenge!
