@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eaff03;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+section.inbox {
+    margin: 0 auto;
+    background-color: #fff;
+    width: fit-content;
+    border-radius: 8px;
+    box-shadow: 6px 10px 8px 0px rgba(0, 0, 0, 0.4);
+}
+
+section.inbox .item {
+    display: flex;
+    width: 100%;
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+section.inbox .item label {
+    width: 100%;
+    margin-left: 14px;
+    user-select: none;
+}
+
