@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="./assets/logo.png">
+    <title>UWatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <h1>UWatch</h1>
+    <section class="player">
+        <div class="volume_controlers">
+            <input type="range" class="volume_range" name="volume" min="0" max="1" step="0.05" value="0.5">
+        </div>
+        <i class="fa-solid fa-play play_pause main"></i>
+        <video class="player_video video_player" poster="./assets/first-thumbnail.png">
+            <source src="./assets/vedio3.mp4" type="video/mp4">
+        </video>
+        
+        <!-- Controlers Container -->
+        <div class="controlers">
+            <button class="player_button toggle" title="toggle play"><i class="fa-solid fa-play play_pause"></i></button>
+            <div class="progress">
+                <div class="progress_bar"></div>
+            </div>
+            <div class="buttons">
+                <button data-skip="-10" class="player_button"><i class="fa-solid fa-backward"></i></button>
+                <button data-skip="10" class="player_button"><i class="fa-solid fa-forward"></i></button>
+                <button id="fullscreen"><i class="fa-solid fa-expand"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <nav class="video_side_list"></nav>
+
+    <script src="main.js"></script>
+</body>
+</html>
