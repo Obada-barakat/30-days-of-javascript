@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Sequence Detection</title>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<style>
+    h2 {
+        width: fit-content;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 0 auto;
+        font-size: 45px;
+        opacity: 0;
+        color: red;
+        transition: opacity .2s ease-in-out;
+    }
+    h2.show {
+        opacity: 1;
+    }
+    span {
+        width: fit-content;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+        left: 0;
+        background-color: rgb(167, 228, 228);
+        padding: 12px;
+        border-radius: 4px;
+        font-size: 26px;
+    }
+</style>
+<body>
+    <h2>YAY!</h2>
+    <span>Write "LOLZ" on your keyboard</span>
+    <script>
+        let yay = document.querySelector('h2');
+        let pressed = [];
+        let secretCode = 'lolz';
+
+        window.addEventListener('keyup', (e) => {
+            pressed.push(e.key)
+            pressed.splice(-secretCode.length, pressed.length - secretCode.length)
+        
+            if(pressed.join('').includes(secretCode)) {
+                yay.classList.add('show');
+                setTimeout(() => {
+                    yay.classList.remove('show')
+                }, 3000)
+                confetti();
+            }
+        })
+    </script>
+</body>
+</html>
