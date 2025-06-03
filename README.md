@@ -28,6 +28,7 @@ Each day/project is in its own folder and includes:
 | 08 | HTML Canvas              | Drawing app using the HTML5 <canvas> element and JavaScript | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day8-JavaScript-Canvas)|
 | 09 | Dev Tools                |  DevTools and the console are super important for debugging and real-world development | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day9-JavaScript-dev-tools)|
 | 10 | Select multiple checkboxes| Hold Shift and click to select a range of checkboxes | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day10-JavaScript-Hold-shift-and-select)|
-| 11 | Video player             | custom video player using vanilla JavaScript — no frameworks, just DOM manipulation and event handling. | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day11-JavaScript-custom-video-player/)
+| 11 | Video player             | custom video player using vanilla JavaScript — no frameworks, just DOM manipulation and event handling. | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day11-JavaScript-custom-video-player/) |
+| 12 | Key Sequence Detection   | if you type a secret word ("LOLZ"), confetti explodes across the screen using an external JavaScript library. | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day12-JavaScript-key-sequence-detection)
 
 Feel free to follow along, use the ideas, and fork the repo if you're doing a similar challenge!
