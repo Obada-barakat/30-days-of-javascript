@@ -31,5 +31,6 @@ Each day/project is in its own folder and includes:
 | 11 | Video player             | custom video player using vanilla JavaScript — no frameworks, just DOM manipulation and event handling. | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day11-JavaScript-custom-video-player/) |
 | 12 | Key Sequence Detection   | if you type a secret word ("LOLZ"), confetti explodes across the screen using an external JavaScript library. | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day12-JavaScript-key-sequence-detection)|
 | 13 | Slide in on scroll |A multi-section webpage built with HTML, CSS, and JavaScript. Each section slides in on scroll smoothly | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-13-JavaScript-slide-in-on-scroll) |
+| 15 | Local Tapas | Dealing with LocalStorage and Event delegation in JS | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-15-JavaScript-LocalStorage&Event-Delegation)
 
 Feel free to follow along, use the ideas, and fork the repo if you're doing a similar challenge!
