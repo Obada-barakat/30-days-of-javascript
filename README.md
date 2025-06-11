@@ -32,6 +32,7 @@ Each day/project is in its own folder and includes:
 | 12 | Key Sequence Detection   | if you type a secret word ("LOLZ"), confetti explodes across the screen using an external JavaScript library. | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day12-JavaScript-key-sequence-detection)|
 | 13 | Slide in on scroll |A multi-section webpage built with HTML, CSS, and JavaScript. Each section slides in on scroll smoothly | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-13-JavaScript-slide-in-on-scroll) |
 | 15 | Local Tapas | Dealing with LocalStorage and Event delegation in JS | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-15-JavaScript-LocalStorage-Event-Delegation) |
-| 16 | Text Shadow Effect | Interactive text effect using text shadows and mouse movement in JavaScript. | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-16-JavaScript-Text-shadow-Effect-Mouse-Move)
+| 16 | Text Shadow Effect | Interactive text effect using text shadows and mouse movement in JavaScript. | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-16-JavaScript-Text-shadow-Effect-Mouse-Move) | 
+| 17 | Sorting | Sorting band names without articles like "a", "an", and "the". | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-17-JavaScript-sorting-band-without-articles)
 
 Feel free to follow along, use the ideas, and fork the repo if you're doing a similar challenge!
