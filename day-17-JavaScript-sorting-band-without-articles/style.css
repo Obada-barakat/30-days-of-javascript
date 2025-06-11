@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(74, 123, 125);
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    overflow: hidden;
+}
+
+ul#bands {
+    list-style: none;
+    padding: 0;
+}
+
+ul#bands li {
+    padding: 8px;
+    font-size: 26px;
+    color: #fcfc24;
+}
