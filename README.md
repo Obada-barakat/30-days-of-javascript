@@ -34,6 +34,7 @@ Each day/project is in its own folder and includes:
 | 15 | Local Tapas | Dealing with LocalStorage and Event delegation in JS | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-15-JavaScript-LocalStorage-Event-Delegation) |
 | 16 | Text Shadow Effect | Interactive text effect using text shadows and mouse movement in JavaScript. | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-16-JavaScript-Text-shadow-Effect-Mouse-Move) | 
 | 17 | Sorting | Sorting band names without articles like "a", "an", and "the". | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-17-JavaScript-sorting-band-without-articles)| 
-| 18 | String Times | Tally string times using map and reduce | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-18-JavaScript-tally-string-times)
+| 18 | String Times | Tally string times using map and reduce | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-18-JavaScript-tally-string-times) |
+| 19 | Webcam | A webcam using the MediaDevices API, Captured real-time video and painted it onto a <canvas>, Applied live visual effects like RGB split and color filtering, Created a custom screenshot feature that lets users take snapshots from the video, and used Node.js and npm to run a local server and manage dependencies | [Demo](https://30-days-of-javascript-2xdhroo55-ubbas-projects-e7813969.vercel.app/) |
 
 Feel free to follow along, use the ideas, and fork the repo if you're doing a similar challenge!
