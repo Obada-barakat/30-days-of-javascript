@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="photobooth">
+        <div class="controls">
+            <div class="rgb">
+                <div>
+                    <label for="rmin">Red Boost:</label>
+                    <input type="range" id="red_boost" value="100" min="0" max="255" oninput="redVal.textContent = this.value">
+                    <span id="redVal">100</span>
+                </div>
+                    
+                <div>
+                    <label for="gmin">Green Remove:</label>
+                    <input type="range" id="green_boost" value="100" min="0" max="255" oninput="greenVal.textContent = this.value">
+                    <span id="greenVal">100</span>
+                </div>
+                    
+                <div>
+                    <label for="bmin">Blue Factor:</label>
+                    <input type="range" id="blue_factor" value="0.4" min="0" max="2" step="0.01" oninput="blueVal.textContent = this.value">
+                    <span id="blueVal">0.4</span>
+                </div>
+            </div>
+            <button onclick="takePhoto()">Take Photo</button>
+        </div>
+
+        <div class="canvas">
+            <canvas class="photo"></canvas>
+        </div>
+        <video class="player"></video>
+        <div class="strip"></div>
+    </div>
+
+    <audio class="snap" src="./assets/taking-photo-with-camera-36437.mp3"></audio>
+
+    <script src="main.js"></script>
+</body>
+</html>
