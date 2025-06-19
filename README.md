@@ -36,6 +36,6 @@ Each day/project is in its own folder and includes:
 | 17 | Sorting | Sorting band names without articles like "a", "an", and "the". | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-17-JavaScript-sorting-band-without-articles)| 
 | 18 | String Times | Tally string times using map and reduce | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-18-JavaScript-tally-string-times) |
 | 19 | Webcam | A webcam using the MediaDevices API, Captured real-time video and painted it onto a <canvas>, Applied live visual effects like RGB split and color filtering, Created a custom screenshot feature that lets users take snapshots from the video, and used Node.js and npm to run a local server and manage dependencies | [Demo](https://30-days-of-javascript-2xdhroo55-ubbas-projects-e7813969.vercel.app/) |
-| 20 | Native Speech Recognition | Change background or text color with voice, Show/remove random photos with voice | [Demo]() |
+| 20 | Native Speech Recognition | Change background or text color with voice, Show/remove random photos with voice | [Demo](https://30-days-of-javascript-tknl.vercel.app/) |
 
 Feel free to follow along, use the ideas, and fork the repo if you're doing a similar challenge!
