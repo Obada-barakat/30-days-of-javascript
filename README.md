@@ -37,6 +37,7 @@ Each day/project is in its own folder and includes:
 | 18 | String Times | Tally string times using map and reduce | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-18-JavaScript-tally-string-times) |
 | 19 | Webcam | A webcam using the MediaDevices API, Captured real-time video and painted it onto a <canvas>, Applied live visual effects like RGB split and color filtering, Created a custom screenshot feature that lets users take snapshots from the video, and used Node.js and npm to run a local server and manage dependencies | [Demo](https://30-days-of-javascript-2xdhroo55-ubbas-projects-e7813969.vercel.app/) |
 | 20 | Native Speech Recognition | Change background or text color with voice, Show/remove random photos with voice | [Demo](https://30-days-of-javascript-tknl.vercel.app/) |
-| 21 | Follow Links Effect |  A tooltip-like highlight that follows the user’s hover over navigation links | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-21-Follow-links)
+| 21 | Follow Links Effect |  A tooltip-like highlight that follows the user’s hover over navigation links | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-21-Follow-links) |
+| 22 | SpeechSynthesis     | It’s a simple but fascinating project—allowing users to input text and have it spoken aloud using different voices, pitch, and rate settings. | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-22-speech-synthesis)
 
 Feel free to follow along, use the ideas, and fork the repo if you're doing a similar challenge!
