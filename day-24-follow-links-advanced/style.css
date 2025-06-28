@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e6e6e6;
+}
+
+main.container {
+    height: 100vh;
+    background-color: rgba(107, 190, 147, 0.968);
+}
+
+header.links {
+    display: flex;
+    padding: 0 6px;
+}
+
+.dropdownBackground {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 6px;
+    transition: all 0.3s, opacity 0.1s, transform 0.4s;
+    transform-origin: 50% 0%;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    opacity: 0;
+}
+
+.dropdownBackground .arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    background-color: transparent;
+    margin:  0;
+    position: relative;
+}
+
+.dropdownBackground .arrow i {
+    display: block;
+    
+}
+
+.dropdownBackground.open {
+    opacity: 1;
+}
+
+.links ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    flex: 2;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.links li {
+    position: relative;
+}
+
+.links li a {
+    text-decoration: none;
+    color: black;
+}
+
+.links li .dropdown {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    margin: 0;
+    transform: translateX(-50%);
+    /* margin: 16px 0; */
+    padding: 12px 8px;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+    display: none;
+}
+
+.trigger-enter .dropdown {
+    display: block !important;
+}
+
+.trigger-enter-active .dropdown {
+    opacity: 1 !important;
+}
+
+@media (max-width: 467px) {
+    .links li:last-child .dropdown {
+    left: 0;
+    }
+}
+
+.links li .dropdown1 div {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.links li .dropdown1 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.dropdown1 ul li {
+    padding: 6px;
+}
+
+.links li .dropdown2 {
+    width: 300%;
+    text-align: left;
+}
+
+.dropdown2 .container {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dropdown2 .container ul {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 0 20px;
+}
+
+.dropdown2 a {
+    display: block;
+    padding: 12px;
+    background-color: rgba(233, 231, 231, 0.441);
+}
+
+.links li .dropdown3 {
+    padding: 0;
+}
+
+.links li .dropdown3 .from_the_blog {
+    padding: 2px;
+    background-color: rgba(233, 231, 231, 0.441);
+}
+
+.links li .dropdown3 a {
+    display: block;
+    text-align: left;
+    padding: 8px;
+}
+
+.links li .dropdown3 p {
+    text-align: left;
+    width: 200px;
+}
+
+
+section.main_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.main_content h2 {
+    margin: 20px 10px 0;
+}
+
+section.main_content p {
+    margin: 8px 0 20px;
+    color: #fff;
+    font-size: 22px;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+}
+
+.cards {
+    width: 100%;
+    padding: 10px 18px;
+    display: flex;
+}
+
+.cards .card {
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cards .first_card {
+    background-color: black;
+    color: white;
+}
+
+.cards .card button {
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.first_card button {
+    background-color: rgba(56, 51, 51, 0.6);
+    color: white;
+}
+
+.first_card button:hover {
+    background-color: rgba(41, 38, 38, 0.6);
+}
+
+.cards .second_card {
+    background-color: white;
+}
+
+.second_card button {
+    position: relative;
+    bottom: 0;
+    background-color: #eee;
+}
+
+.second_card button:hover {
+    background-color: #b4b4b4;
+}
+
+.second_card table {
+    padding: 4px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.second_card table,
+.second_card td {
+    border: 2px solid;
+}
+
+section.main_content p.last_line {
+    margin: 16px;
+    color: #fff;
+    font-size: 22px;
+}
+
+section.main_content p strong {
+    color: black;
+    text-shadow: none;
+}
+
+@media (max-width: 600px) {
+.cards {
+    flex-direction: column;
+}
+
+.cards .card {
+    margin-bottom: 12px;
+}
+
+.dropdown2 {
+    width: 100%;
+}
+}
