@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(3, 3, 3);
+    color: white;
+    padding: 0 4px;
+    overflow: hidden;
+}
+
+nav a {
+    position: relative;
+    color: white;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.4s ease-in;
+}
+
+nav a:hover {
+    color: rgba(249, 225, 8, 0.744);
+    border-color: rgba(249, 225, 8, 0.744);
+}
+
+nav div {
+    width: 100%;
+    text-align: center;
+}
+
+#score {
+    transition: color 0.2s ease;
+}
+
+#score.flash {
+    color: #f9e108;
+    font-weight: 700;
+}
+
+main.game-section {
+    position: relative;
+    background-color: rgba(249, 225, 8, 0.744);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 1px 6px 0px #565656;
+    background-color: rgba(0, 0, 0, 0.135);
+}
+
+button.go {
+    width: 80%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.135);
+    border: 2px solid rgba(0, 0, 0, 0.68);
+    font-size: 22px;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+button.go:hover {
+    background-color: rgba(0, 0, 0, 0.235);
+}
+
+button.go.game_on {
+    border-color: transparent;
+}
+
+img.wham {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s ease-out;
+    opacity: 0;
+}
+
+img.wham.whack {
+    opacity: 1;
+    width: 250px;
+    height: 150px;
+    transform: translate(-50%, -50%) rotate(-15deg);
+}
+
+.holes-area {
+    width: 100%;
+    height: 20%;
+    margin: auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 25px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.hole {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hole:after {
+    display: block;
+    background: url(./assets/hole.png) bottom center no-repeat;
+    background-size: contain;
+    content: "";
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: -20px;
+}
+
+.mole {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 80px;
+    background: url(./assets/mole.png) bottom center no-repeat;
+    background-size: contain;
+    transition: all 0.3 ease;
+}
+
+.hole.up .mole {
+    top: 5px;
+}
+
+.mole.whacked {
+    animation: whack-hit 0.3s ease forwards;
+}
+
+@keyframes whack-hit {
+    0% { transform:  scale(1) rotate(0deg); }
+    50% { transform: scale(1.2) rotate(-10deg); }
+    100% { transform: scale(1) rotate(0deg); }
+}
