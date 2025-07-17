@@ -40,6 +40,7 @@ Each day/project is in its own folder and includes:
 | 21 | Follow Links Effect |  A tooltip-like highlight that follows the user’s hover over navigation links | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-21-Follow-links) |
 | 22 | SpeechSynthesis     | It’s a simple but fascinating project—allowing users to input text and have it spoken aloud using different voices, pitch, and rate settings. | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-22-speech-synthesis) |
 | 23 | Sticky Nav         |  It's all about building a simple sticky nav bar that stays fixed at the top as you scroll. | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-23-Sticky-Nav)|
-| 24 | Follow Along Links | A dynamic landing page that features an interactive dropdown navigation with a "follow-along" background effect. | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-24-follow-links-advanced)
+| 24 | Follow Along Links | A dynamic landing page that features an interactive dropdown navigation with a "follow-along" background effect. | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-24-follow-links-advanced) |
+| 25 | Whack A Mole | A fast-paced browser game where moles pop up randomly from holes, and the player must click them as quickly as possible to earn points before time runs out. Try to beat your highest score! | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-26-whack-a-mole-game)
 
 Feel free to follow along, use the ideas, and fork the repo if you're doing a similar challenge!
