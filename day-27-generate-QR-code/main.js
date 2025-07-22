@@ -5,8 +5,8 @@ const qrImage = document.querySelector('#qrImage');
 
 function generateQR() {
     if (input.value.length > 0) {
-        qrImage.src = 'https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example' +
-        input.value;
+        qrImage.src = 'https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=' +
+        encodeURIComponent(input.value);
         imgBox.classList.add('show');
     } else {
         input.classList.add('error');
