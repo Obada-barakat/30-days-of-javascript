@@ -42,6 +42,7 @@ Each day/project is in its own folder and includes:
 | 23 | Sticky Nav         |  It's all about building a simple sticky nav bar that stays fixed at the top as you scroll. | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-23-Sticky-Nav)|
 | 24 | Follow Along Links | A dynamic landing page that features an interactive dropdown navigation with a "follow-along" background effect. | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-24-follow-links-advanced) |
 | 25 | Whack A Mole | A fast-paced browser game where moles pop up randomly from holes, and the player must click them as quickly as possible to earn points before time runs out. Try to beat your highest score! | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-26-whack-a-mole-game) | 
-| 26 | Generae A QR Code | Give it a text or a link, and it instantly turns it into a QR code! | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-27-generate-QR-code)
+| 26 | Generae A QR Code | Give it a text or a link, and it instantly turns it into a QR code! | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-27-generate-QR-code)|
+| 27 | Calculator | Dynamically created calculator layout using JavaScript and DOM manipulation. | [Demo](https://obada-barakat.github.io/30-days-of-javascript/day-28-calculator)
 
 Feel free to follow along, use the ideas, and fork the repo if you're doing a similar challenge!
